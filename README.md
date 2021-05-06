@@ -342,9 +342,12 @@ Yine HTTP 200 döndü. Push gelmedi.
 
 
 
+nc -vz -4 feedback.push.apple.com 2196
+nc -vz -4 feedback.sandbox.push.apple.com 2196
 
 
-
+feedback.push.apple.com
+feedback.sandbox.push.apple.com
 
 
 
