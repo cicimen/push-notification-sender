@@ -1,4 +1,4 @@
-ONESIGNAL'ın tuttuğu cookie'ler
+# ONESIGNAL'ın tuttuğu cookie'ler
 
 <NSHTTPCookie
 	version:0
@@ -26,7 +26,7 @@ for cookie in cookieStore.cookies ?? [] {
 }
 
 
-İLK APP KURDUM
+# İLK APP KURDUM
 
 OneSignal.setAppId("0b621402-41d4-4522-b390-6bd0aafe03ca")
 
@@ -165,7 +165,7 @@ content-encoding:	gzip
 
 
 
-APP'İ YENİDEN KURDUM
+# APP'İ YENİDEN KURDUM
 
 
 GET https://api.onesignal.com/apps/0b621402-41d4-4522-b390-6bd0aafe03ca/ios_params.js?player_id=342534b1-512b-418c-8476-cf4580e7f774 HTTP/2.0
@@ -261,7 +261,7 @@ cookie:	__cfduid=d8f39567474a8b714aedf9a7eaf4d46001620296073
 
 
 
-APP'İ SİLİP TEKRAR YÜKLEDİM
+# APP'İ SİLİP TEKRAR YÜKLEDİM
 
 
 GET https://api.onesignal.com/apps/0b621402-41d4-4522-b390-6bd0aafe03ca/ios_params.js HTTP/2.0
