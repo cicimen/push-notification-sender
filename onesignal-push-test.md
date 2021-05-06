@@ -388,6 +388,289 @@ content-encoding:	gzip
 
 
 
+# UYGULAMAYI ARKA PLANA ALDIM
+
+
+POST https://api.onesignal.com/players/4e5146c9-7121-4144-93e6-ea5fcccac1e5/on_focus HTTP/2.0
+
+REQUEST
+
+accept: application/vnd.onesignal.v1+json
+content-type:   application/json
+user-agent: EuromsgExample/4 CFNetwork/978.0.7 Darwin/18.7.0
+sdk-version:    onesignal/ios/030403
+accept-language:    tr-tr
+content-length: 186
+accept-encoding:    br, gzip, deflate
+cookie: __cfduid=d3b627b2252818bac4a9342821084eaa51620297065
+
+
+{
+    "active_time": 2227.1777069568634,
+    "app_id": "0b621402-41d4-4522-b390-6bd0aafe03ca",
+    "device_type": 0,
+    "direct": false,
+    "net_type": 0,
+    "state": "ping",
+    "type": 1
+}
+
+
+RESPONSE
+
+date:   Thu, 06 May 2021 11:08:12 GMT
+content-type:   application/json
+access-control-allow-origin:    *
+cf-cache-status:    DYNAMIC
+cf-request-id:  09e2f6380b0000cb32651b9000000001
+expect-ct:  max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 64b1bfd3494ccb32-IST
+content-encoding:   gzip
+
+{
+    "id": "4e5146c9-7121-4144-93e6-ea5fcccac1e5",
+    "success": true
+}
+
+
+
+# APP'İ SİLİP TEKRAR KURDUM
+
+GET https://api.onesignal.com/apps/0b621402-41d4-4522-b390-6bd0aafe03ca/ios_params.js HTTP/2.0
+
+REQUEST
+
+accept: application/vnd.onesignal.v1+json
+content-type:   application/json
+sdk-version:    onesignal/ios/030403
+user-agent: EuromsgExample/4 CFNetwork/978.0.7 Darwin/18.7.0
+accept-language:    tr-tr
+accept-encoding:    br, gzip, deflate
+
+
+RESPONSE
+
+date:   Thu, 06 May 2021 11:15:47 GMT
+content-type:   application/json; charset=utf-8
+set-cookie: __cfduid=d8f85967a644d1009f6c72327954f23741620299747; expires=Sat, 05-Jun-21 11:15:47 GMT; path=/; domain=.onesignal.com; HttpOnly; SameSite=Lax
+status: 200 OK
+cache-control:  public, max-age=3600
+access-control-allow-origin:    *
+referrer-policy:    strict-origin-when-cross-origin
+x-xss-protection:   1; mode=block
+x-request-id:   094ffb7a-67c2-481c-b4c7-1f2778ac4348
+access-control-allow-headers:   SDK-Version
+etag:   W/"060cd0051f794fa455508a924aad81fc"
+x-frame-options:    SAMEORIGIN
+x-runtime:  0.009443
+x-content-type-options: nosniff
+x-powered-by:   Phusion Passenger 5.3.7
+cf-cache-status:    HIT
+age:    2682
+expires:    Thu, 06 May 2021 12:15:47 GMT
+cf-request-id:  09e2fd29770000e186a09ad000000001
+expect-ct:  max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+vary:   Accept-Encoding
+server: cloudflare
+cf-ray: 64b1caef2d9fe186-IST
+content-encoding:   gzip
+
+
+
+POST https://api.onesignal.com/players HTTP/2.0
+
+REQUEST
+
+accept: application/vnd.onesignal.v1+json
+content-type:   application/json
+user-agent: EuromsgExample/4 CFNetwork/978.0.7 Darwin/18.7.0
+sdk-version:    onesignal/ios/030403
+accept-language:    tr-tr
+content-length: 514
+accept-encoding:    br, gzip, deflate
+cookie: __cfduid=d8f85967a644d1009f6c72327954f23741620299747
+
+{
+    "app_id": "0b621402-41d4-4522-b390-6bd0aafe03ca",
+    "device_model": "iPhone7,2",
+    "device_os": "12.5.2",
+    "device_type": 0,
+    "game_version": "1.4",
+    "identifier": "2110ef0d06fe83a04cda9d1adb737807e92fd7d31f9574163c2b6a76a619550d",
+    "ios_bundle": "com.relateddigital.EuromsgExample",
+    "language": "tr-TR",
+    "net_type": 0,
+    "notification_types": -18,
+    "sdk": "030403",
+    "sdk_type": "030403",
+    "tags": {},
+    "test_type": 1,
+    "timezone": 10800,
+    "timezone_id": "Europe/Istanbul"
+}
+
+RESPONSE
+
+date:   Thu, 06 May 2021 11:16:17 GMT
+content-type:   application/json; charset=utf-8
+status: 200 OK
+cache-control:  max-age=0, private, must-revalidate
+access-control-allow-origin:    *
+referrer-policy:    strict-origin-when-cross-origin
+x-xss-protection:   1; mode=block
+x-request-id:   6e4d624b-2943-4808-b313-3ad254242650
+access-control-allow-headers:   SDK-Version
+etag:   W/"183aa69a4bed89573d82f6ad44489a44"
+x-frame-options:    SAMEORIGIN
+x-runtime:  0.038590
+x-content-type-options: nosniff
+x-powered-by:   Phusion Passenger 5.3.7
+cf-cache-status:    DYNAMIC
+cf-request-id:  09e2fd9ec3000050dcf1998000000001
+expect-ct:  max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 64b1cbaad94e50dc-IST
+content-encoding:   gzip
+
+
+{
+    "id": "6e181fe2-c8ed-4ea4-849b-bd975a441183",
+    "success": true
+}
+
+# APP'İ SİLİP TEKRAR KURDUM
+
+let cookieStore = HTTPCookieStorage.shared
+for cookie in cookieStore.cookies ?? [] {
+    print(cookie)
+}
+
+hiç cookie yazmadı.
+
+
+
+
+GET https://api.onesignal.com/apps/0b621402-41d4-4522-b390-6bd0aafe03ca/ios_params.js HTTP/2.0
+
+REQUEST
+
+accept: application/vnd.onesignal.v1+json
+content-type:   application/json
+sdk-version:    onesignal/ios/030403
+user-agent: EuromsgExample/4 CFNetwork/978.0.7 Darwin/18.7.0
+accept-language:    tr-tr
+accept-encoding:    br, gzip, deflate
+
+RESPONSE
+
+date:   Thu, 06 May 2021 11:32:07 GMT
+content-type:   application/json; charset=utf-8
+set-cookie: __cfduid=dc0170b9b796eaf35abf6fd8f394489c61620300727; expires=Sat, 05-Jun-21 11:32:07 GMT; path=/; domain=.onesignal.com; HttpOnly; SameSite=Lax
+status: 200 OK
+cache-control:  public, max-age=3600
+access-control-allow-origin:    *
+referrer-policy:    strict-origin-when-cross-origin
+x-xss-protection:   1; mode=block
+x-request-id:   094ffb7a-67c2-481c-b4c7-1f2778ac4348
+access-control-allow-headers:   SDK-Version
+etag:   W/"060cd0051f794fa455508a924aad81fc"
+x-frame-options:    SAMEORIGIN
+x-runtime:  0.009443
+x-content-type-options: nosniff
+x-powered-by:   Phusion Passenger 5.3.7
+cf-cache-status:    REVALIDATED
+expires:    Thu, 06 May 2021 12:32:07 GMT
+cf-request-id:  09e30c1aff00005105a50ae000000001
+expect-ct:  max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+vary:   Accept-Encoding
+server: cloudflare
+cf-ray: 64b1e2d7fcd65105-IST
+content-encoding:   gzip
+
+{
+    "outcomes": {
+        "direct": {
+            "enabled": false
+        },
+        "indirect": {
+            "enabled": false,
+            "notification_attribution": {
+                "limit": 10,
+                "minutes_since_displayed": 60
+            }
+        },
+        "unattributed": {
+            "enabled": false
+        }
+    },
+    "receive_receipts_enable": false,
+    "uses_provisional_auth": false
+}
+
+
+POST https://api.onesignal.com/players HTTP/2.0
+
+REQUEST
+
+accept: application/vnd.onesignal.v1+json
+content-type:   application/json
+user-agent: EuromsgExample/4 CFNetwork/978.0.7 Darwin/18.7.0
+sdk-version:    onesignal/ios/030403
+accept-language:    tr-tr
+content-length: 514
+accept-encoding:    br, gzip, deflate
+cookie: __cfduid=dc0170b9b796eaf35abf6fd8f394489c61620300727
+
+
+{
+    "app_id": "0b621402-41d4-4522-b390-6bd0aafe03ca",
+    "device_model": "iPhone7,2",
+    "device_os": "12.5.2",
+    "device_type": 0,
+    "game_version": "1.4",
+    "identifier": "9273058f22ee86c93cbebd734370d89f3b0051d864ac147dd5773e7e9ef55d1e",
+    "ios_bundle": "com.relateddigital.EuromsgExample",
+    "language": "tr-TR",
+    "net_type": 0,
+    "notification_types": -18,
+    "sdk": "030403",
+    "sdk_type": "030403",
+    "tags": {},
+    "test_type": 1,
+    "timezone": 10800,
+    "timezone_id": "Europe/Istanbul"
+}
+
+
+RESPONSE
+
+date:   Thu, 06 May 2021 11:32:37 GMT
+content-type:   application/json; charset=utf-8
+status: 200 OK
+cache-control:  max-age=0, private, must-revalidate
+access-control-allow-origin:    *
+referrer-policy:    strict-origin-when-cross-origin
+x-xss-protection:   1; mode=block
+x-request-id:   728608b6-7fd5-4f92-9982-e6df10fad8c4
+access-control-allow-headers:   SDK-Version
+etag:   W/"93d986a500027b04715ee568ba22538b"
+x-frame-options:    SAMEORIGIN
+x-runtime:  0.031498
+x-content-type-options: nosniff
+x-powered-by:   Phusion Passenger 5.3.7
+cf-cache-status:    DYNAMIC
+cf-request-id:  09e30c8f970000510629b29000000001
+expect-ct:  max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+server: cloudflare
+cf-ray: 64b1e3928f5c5106-IST
+content-encoding:   gzip
+
+{
+    "id": "e8720d60-3344-43b3-bb1a-ab473b1a61d9",
+    "success": true
+}
+
 
 
 
