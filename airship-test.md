@@ -1,3 +1,88 @@
+# AIRSHIP LOGLAR
+
+let keychain = KeychainSwift()
+keychain.allKeys // Returns the names of all keys
+
+
+
+
+
+kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly
+accessibleAfterFirstUnlockThisDeviceOnly
+
+
+# SIMULATOR
+
+2021-05-11 15:36:14.861571+0300 EuromsgExample[816:108527] Channel ID: c0b6ff4b-10f3-4d99-935a-6da0f0958b88
+CoreData: annotation:  Failed to load optimized model at path '/var/containers/Bundle/Application/68A9910C-1EC1-4E2A-A61E-B6D3A6EB8D0A/EuromsgExample.app/Frameworks/Airship.framework/UARemoteData.momd/UARemoteData 2.omo'
+CoreData: annotation:  Failed to load optimized model at path '/var/containers/Bundle/Application/68A9910C-1EC1-4E2A-A61E-B6D3A6EB8D0A/EuromsgExample.app/Frameworks/Airship.framework/UAAutomation.momd/UAAutomation 8.omo'
+CoreData: annotation:  Failed to load optimized model at path '/var/containers/Bundle/Application/68A9910C-1EC1-4E2A-A61E-B6D3A6EB8D0A/EuromsgExample.app/Frameworks/Airship.framework/UAInbox.momd/UAInbox 2.omo'
+
+
+
+deviceID	__NSCFString *	@"533B3E11-1F3B-4229-8A9A-76FAB24B4E80"	0x00006000030ac440
+
+
+
+
+
+
+
+[3]	(null)	@"svce" : @"com.relateddigital.EuromsgExample"	
+[13]	(null)	@"agrp" : @"5M383PCDJZ.com.relateddigital.EuromsgExample"	
+
+
+[0]	(null)	@"tomb" : (long)0	
+[1]	(null)	@"acct" : @"iPhone7,2"	
+[2]	(null)	@"gena" : 25 bytes	
+[3]	(null)	@"svce" : @"com.relateddigital.EuromsgExample"	
+[4]	(null)	@"v_Data" : 36 bytes	
+[5]	(null)	@"sha1" : 20 bytes	
+[6]	(null)	@"persistref" : 0 bytes	
+[7]	(null)	@"musr" : 0 bytes	
+[8]	(null)	@"accc" : (no summary)	
+[9]	(null)	@"pdmn" : @"cku"	
+[10]	(null)	@"mdat" : 2021-05-10 16:28:38 UTC	
+[11]	(null)	@"sync" : (long)0	
+[12]	(null)	@"cdat" : 2021-05-10 16:28:38 UTC	
+[13]	(null)	@"agrp" : @"5M383PCDJZ.com.relateddigital.EuromsgExample"	
+
+
+[0]	(null)	@"tomb" : (long)0	
+[1]	(null)	@"acct" : @"4_J9IfMYSy6rRGS5dhmnjA"	
+[2]	(null)	@"gena" : 22 bytes	
+[3]	(null)	@"v_Data" : 22 bytes	
+[4]	(null)	@"svce" : @"com.relateddigital.EuromsgExample"	
+[5]	(null)	@"sha1" : 20 bytes	
+[6]	(null)	@"persistref" : 0 bytes	
+[7]	(null)	@"musr" : 0 bytes	
+[8]	(null)	@"accc" : (no summary)	
+[9]	(null)	@"pdmn" : @"ck"	
+[10]	(null)	@"mdat" : 2021-05-10 16:28:39 UTC	
+[11]	(null)	@"sync" : (long)0	
+[12]	(null)	@"cdat" : 2021-05-10 16:28:39 UTC	
+[13]	(null)	@"agrp" : @"5M383PCDJZ.com.relateddigital.EuromsgExample"	
+
+[0]	(null)	"v_Data" : 7 bytes	
+[1]	(null)	"acct" : "testkey"	
+[2]	(null)	"tomb" : Int64(0)	
+[3]	(null)	"svce" : ""	
+[4]	(null)	"sha1" : 20 bytes	
+[5]	(null)	"persistref" : 0 bytes	
+[6]	(null)	"musr" : 0 bytes	
+[7]	(null)	"accc" : (no summary)	
+[8]	(null)	"pdmn" : "ak"	
+[9]	(null)	"cdat" : 2021-05-11 17:13:48 UTC	
+[10]	(null)	"sync" : Int64(0)	
+[11]	(null)	"mdat" : 2021-05-11 17:13:48 UTC	
+[12]	(null)	"v_PersistentRef" : 12 bytes	
+[13]	(null)	"agrp" : "5M383PCDJZ.com.relateddigital.EuromsgExample"	
+
+
+
+
+
+
 /Users/egemen/Library/Developer/CoreSimulator/Devices/EF3E91ED-D294-4B7F-AF69-30AC944A0C7C/data/Library/Keychains
 
 ~/Library/Mobile\ Documents/com~apple~CloudDocs 
@@ -76,6 +161,7 @@ push token: 10CC711AE4728AECD2820262742D33D1DCDD952EFF6C072C4920CAEBDA916768
 E2CC43CE450CA4FEAA8A792EBB877380A876B1FE01E873D173E676DB8189ABCB
 6BCFAADB113BD4D2A5B66927B1C4952F83C80528FD37BCCE200A98D8D3BBA73B
 B4F510B0F8CA2EEA638388D47F294AEF5D425E094EA18FA5F9A8C226D6A5A266
+89F5B44B31197CD552B5DD07F6853BEAFF5A397FFE913600F8BD03ABAA4AE4BD
 
 
 4_J9IfMYSy6rRGS5dhmnjA
