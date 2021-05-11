@@ -351,3 +351,9 @@ feedback.sandbox.push.apple.com
 
 
 
+
+curl -v -d '{"aps":{"alert":"Deneme","badge":1}}' -H "apns-topic:com.relateddigital.EuromsgExample" --http2 --cert pushcert.pem https://api.sandbox.push.apple.com/3/device/9273058f22ee86c93cbebd734370d89f3b0051d864ac147dd5773e7e9ef55d1e
+
+
+
+

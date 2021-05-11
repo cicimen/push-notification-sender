@@ -1,0 +1,65 @@
+[
+    {
+        "af": {
+            "Build": "4",
+            "Carrier": "",
+            "Make": "Apple",
+            "Model": "iPhone7,2",
+            "OS": "iOS",
+            "OS Version": "12.5.2",
+            "SDK Version": "30903",
+            "Version": "1.4",
+            "hgt": "4.09",
+            "ifaA": false,
+            "ifv": "2c1b43254fc7417384b22a7b9e5c745b",
+            "useIP": false,
+            "wdt": "2.30"
+        },
+        "ddnd": 1,
+        "f_ts": 0,
+        "frs": true,
+        "g": "-v2c1b43254fc7417384b22a7b9e5c745b",
+        "id": "865-94Z-795Z",
+        "imp": 0,
+        "l_ts": 0,
+        "tk": "14c-56b",
+        "tlc": [],
+        "type": "meta"
+    },
+    {
+        "dsync": true,
+        "ep": 1620306789,
+        "evtData": {
+            "t": 1
+        },
+        "evtName": "wzrk_fetch",
+        "f": true,
+        "lsl": 0,
+        "n": "_bg",
+        "pai": "com.relateddigital.EuromsgExample",
+        "pg": 1,
+        "s": 1620306788,
+        "type": "event"
+    }
+]
+
+curl -v -d '{"aps":{"alert":"Deneme","badge":1}}' -H "apns-topic:com.relateddigital.EuromsgExample" --http2 --cert pushcert.pem https://api.sandbox.push.apple.com/3/device/CE64BDC30537E4AF2B17926034D47714F556D17964FD1CB705689F2196887028
+
+
+curl -v -d '{"aps":{"alert":"Deneme","badge":1}}' -H "apns-topic:com.relateddigital.EuromsgExample" -H "apns-id: 8023DA58-9055-DD6E-1BF4-436DEE686899" --http2 --cert pushcert.pem https://api.development.push.apple.com/3/device/6C5C596BC990F6A71FCAEEE49F4DE8088B7A91B68A9A78CC8D16793D93589A13
+
+
+curl -v -d '{"aps":{"alert":"Deneme","badge":1,"content-available":1}}' -H "apns-topic:com.relateddigital.EuromsgExample" -H "apns-id: 8023DA58-9055-DD6E-1BF4-436DEE686899" --http2 --cert pushcert.pem https://api.development.push.apple.com/3/device/6C5C596BC990F6A71FCAEEE49F4DE8088B7A91B68A9A78CC8D16793D93589A13
+
+
+
+
+
+curl -v -H "accept: application/vnd.onesignal.v1+json" -H "content-type:application/json" -H "sdk-version:onesignal/ios/030403" -H "user-agent:EuromsgExample/4 CFNetwork/978.0.7 Darwin/18.7.0" -H "accept-language: tr-tr" -H "accept-encoding: br, gzip, deflate" --http2 https://api.onesignal.com/apps/0b621402-41d4-4522-b390-6bd0aafe03ca/ios_params.js --output a.txt
+
+
+
+
+
+
+CE64BDC30537E4AF2B17926034D47714F556D17964FD1CB705689F2196887028

@@ -1,6 +1,6 @@
 # TOKEN DEĞİŞTİĞİ ZAMAN ESKİ TOKEN DA TUTULUR. YENİ TOKEN İLE BERABER ESKİ TOKEN DA GÖNDERİLİR. BACKEND DEĞİŞTİRİLİP BU ŞEKİLDE TOKEN'LAR İNAKTİF HALE GETİRİLEBİLİR:
-
-
+https://github.com/forcedotcom/SalesforceMobileSDK-iOS/blob/016ecdf318e7627f55dcfbeca9c3bee2b3d4b333/libs/SalesforceSDKCommon/SalesforceSDKCommon/Classes/Keychain/KeychainManager.swift
+https://github.com/forcedotcom/SalesforceMobileSDK-iOS BUNU DA DENE
 
 # ONESIGNAL'ın tuttuğu cookie'ler
 
